@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, 
@@ -6,20 +8,57 @@ form, input, div {
   padding: 0;
 }
 
-.header {
-  background-color: #31b4;
-  color: #fff;
-  height: 120px;
-  font-family: cursive;
-  border: 5px solid pink;
+* {
+   box-sizing: border-box;
+}
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+   background-color: #e6e6e6;
+}
+header {
+   padding: 20px 4% 10px;
+   top: 0;
+   width: 100%;
+   background-color: #e0f8f7;
+   display: flex;
+   align-items: center;
+   border: 5px solid;
 }
 
-.header-logo {
-  float: left;
-  color: #000000;
-  font-size: 40px;
-  padding: 25px 40px;
-  font-family: "courier new;
+img{
+  border-radius: 50%;
+}
+
+
+h1 {
+   margin: 0; padding: 0;
+   font-size: 50px;
+   font-family: cursive;
+}
+a {	
+   color: #4b4b4b;
+  text-decoration: none;
+  text-decoration-color: ;
+}
+
+a:hover{
+       text-decoration: underline;
+}
+
+
+nav {
+   margin: 0 0 0 auto;
+}
+ul {
+   list-style: none;
+   margin: 0;
+   display: flex;
+}
+li {
+   margin: 0 0 0 15px;
+   font-size: 20px;
 }
 
 div.image_circle {
@@ -46,9 +85,12 @@ div.image_circle {
   font-size: 40px;
 }
 
+
 p{
-  border: 3px solid;
+  border-top: 6px solid;
+  padding:2px 0px 5px 0px;
 }
+
 
 body{
   background-color: #e6e6e6;
@@ -72,32 +114,11 @@ ul{
   background-color: #dee7ec;
   color: #889eab;
 }
-         
-                              
-                              .footer {            
-                                background-color: #f6cece;            
-                                 color: #fff;            
-                                height: 70px;            
-                                 padding: 30px; 
-                                border: 10px solid lightblue;
-                               }            
-                               
-                               .footer-logo {            
-                                float: left;
-                                 color: #000000;
-                                 font-size: 40px;            
-                               }            
-                               
-                               .footer-list {            
-                                 float: right;          
-                               }            
-                               
-                               .footer-list ul {            
-                                 padding-bottom: 15px;
-                                 color: #000000;
-padding: 40px 90px 10px 0px;
-list-style: left;                                
+                                     
+                           
 
-p{
-  padding:40px 0px 0px 0px;
-}
+
+
+
+                                 
+                                 
