@@ -7,10 +7,11 @@ form, input, div {
 }
 
 .header {
-  background-color: #81f7f3;
+  background-color: #31b4;
   color: #fff;
   height: 120px;
   font-family: cursive;
+  border: 5px solid pink;
 }
 
 .header-logo {
@@ -49,7 +50,9 @@ p{
   border: 3px solid;
 }
 
-
+body{
+  background-color: #e6e6e6;
+}
 
 
 ul{
@@ -74,14 +77,15 @@ ul{
                               .footer {            
                                 background-color: #f6cece;            
                                  color: #fff;            
-                                height: 120px;            
-                                 padding: 40px;            
+                                height: 70px;            
+                                 padding: 30px; 
+                                border: 10px solid lightblue;
                                }            
                                
                                .footer-logo {            
                                 float: left;
                                  color: #000000;
-                                 font-size: 60px;            
+                                 font-size: 40px;            
                                }            
                                
                                .footer-list {            
